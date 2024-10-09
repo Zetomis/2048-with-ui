@@ -233,7 +233,7 @@ void UpdateGame(void)
 
 int main()
 {
-    InitWindow(400, 400, "2048");
+    InitWindow(BOARD_SIZE * CELL_SIZE, BOARD_SIZE * CELL_SIZE, "2048");
 
     InitBoard();
 
